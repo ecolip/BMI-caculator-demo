@@ -1,0 +1,143 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:300px;
+  background-color: #333;
+}
+
+.header button{
+  height: 120px;
+  width: 120px;
+  background-color: #FFD366;
+  border: #FFD366;
+  font-size: 24px;
+}
+
+.header .input-groups{
+  color: #FFD366;
+}
+
+.header .input-groups>div:first-child{
+  margin-bottom: 23px;
+}
+
+.header .input-groups>div>div:first-child{
+  margin-bottom: 7px;
+  font-weight: 500;
+}
+
+.header .input-groups input{
+  height: 40px;
+  width: 250px;
+  background-color: #646464;
+  border: 2px #FFD366 solid;
+  color: #fff;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+}
+
+.header button:hover{
+  box-shadow: 0px 0px 9px 14px rgba(255,211,102,0.19);
+}
+
+.header .bmi_result {
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.header .bmi_result small {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.header .bmi_result .box {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.header .bmi_result .reset {
+  right: 0rem;
+  color: #424242;
+  bottom: 0.05rem;
+}
+
+.header .bmi_result .reset svg{
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+  background-color: #31BAF9;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.header .bmi_result.low .box{
+  border: 6px solid hsl(199, 94%, 58%);
+}
+.header .bmi_result.low{
+  color: #31BAF9;
+}
+.header .bmi_result .reset.low svg{
+  background-color: #31BAF9;
+}
+
+.header .bmi_result.normal .box {
+  border: 6px solid #86D73F;
+}
+.header .bmi_result.normal {
+  color: #86D73F;
+}
+.header .bmi_result .reset.normal svg{
+  background-color: #86D73F;
+}
+
+.header .bmi_result.heavy .box {
+  border: 6px solid #FF982D;
+  color: #FF982D;
+}
+.header .bmi_result.heavy {
+  color: #FF982D;
+}
+.header .bmi_result .reset.heavy svg{
+  background-color: #FF982D;
+}
+
+.header .bmi_result.light-heavy .box{
+  border: 6px solid #FF6C03;
+  color: #FF6C03;
+}
+.header .bmi_result.light-heavy {
+  color: #FF6C03;
+}
+.header .bmi_result .reset.light-heavy svg{
+  background-color: #FF6C03;
+}
+
+.header .bmi_result.middle-heavy .box{
+  border: 6px solid #FF6C06;
+  color: #FF6C06;
+}
+.header .bmi_result.middle-heavy {
+  color: #FF6C06;
+}
+.header .bmi_result .reset.middle-heavy svg{
+  background-color: #FF6C06;
+}
+
+.header .bmi_result.high-heavy .box{
+  border: 6px solid #FF1200;
+  color: #FF1200;
+}
+.header .bmi_result.high-heavy {
+  color: #FF1200;
+}
+.header .bmi_result .reset.high-heavy svg{
+  background-color: #FF1200;
+}

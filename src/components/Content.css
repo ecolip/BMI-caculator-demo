@@ -1,0 +1,24 @@
+.content .title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content .bmi, .content .weight, .content .height {
+  display: flex;
+  align-items: center;
+  width: 5.3rem;
+  font-weight: bold;
+}
+
+.content .record {
+  font-size: 20px;
+}
+
+.content .record span, .content .record .date{
+  font-size: 12px;
+}
+
+.content .record .remove {
+  cursor: pointer;
+}
